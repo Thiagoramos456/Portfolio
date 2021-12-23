@@ -13,9 +13,14 @@ module.exports = {
       'gray': '#242629',
       'dark-card': '#16161a',
       'paragraph': '#94a1b2',
+      'orange': '#ff8906',
+      'dark-orange': '#B86200'
     },
     fontFamily: {
       sans: ['Rubik', 'sans-serif']
+    },
+    backgroundImage: {
+      
     }
   },
   plugins: [],

@@ -14,7 +14,7 @@ function ProjectCard({ projectImg, projectName, reversed, children }) {
       />
       <div className='w-full'>
         <h3 className='text-white text-center text-4xl mt-5'>
-          Paleta de Pixel Art
+          {projectName}
         </h3>
         <p className='text-paragraph text-xl px-6 text-center mt-10 italic'>
           {children}
