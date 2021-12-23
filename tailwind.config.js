@@ -10,6 +10,9 @@ module.exports = {
       'purple': '#7f5af0',
       'green': '#2cb67d',
       'grey': '#72757e',
+      'gray': '#242629',
+      'dark-card': '#16161a',
+      'paragraph': '#94a1b2',
     },
     fontFamily: {
       sans: ['Rubik', 'sans-serif']
