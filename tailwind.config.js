@@ -14,7 +14,8 @@ module.exports = {
       'dark-card': '#16161a',
       'paragraph': '#94a1b2',
       'orange': '#ff8906',
-      'dark-orange': '#B86200'
+      'dark-orange': '#B86200',
+      'blue': '#5E6CC5'
     },
     fontFamily: {
       sans: ['Rubik', 'sans-serif']

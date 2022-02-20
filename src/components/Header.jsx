@@ -1,23 +1,25 @@
 import React from 'react';
+import linkedinLogo from '../images/linkedin-logo.png';
 
 export default function Header() {
   return (
-    <header className='flex py-7'>
-      <nav className='flex w-full justify-between'>
-        <ul className='flex ml-24'>
+    <header className='sm:flex py-7 hidden'>
+      <nav className='flex w-full'>
+        <ul className='flex ml-24 items-center'>
           <li className='mr-8'>
-            <button className='text-white text-xl'>Home</button>
+            <button className='text-xl'>Home</button>
           </li>
           <li className='mr-8'>
-            <button className='text-white text-xl'>Sobre</button>
+            <button className='text-xl'>Sobre</button>
           </li>
           <li className='mr-8'>
-            <button className='text-white text-xl'>Projetos</button>
+            <button className='text-xl'>Projetos</button>
           </li>
         </ul>
-        <button className='mr-20 text-white bg-grey px-6 rounded-full'>
-          Contato
-        </button>
+        <div className="flex">
+          <img className="w-16" src={linkedinLogo} alt="Linkedin"></img>
+          <img className="w-16" src={linkedinLogo} alt="Linkedin"></img>
+        </div>
       </nav>
     </header>
   );
